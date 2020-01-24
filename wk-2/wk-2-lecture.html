@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
 <!-- 🔥🔥🔥🔥🔥🔥 start the lecture here javascript 🔥🔥🔥🔥🔥🔥 -->
 <script>
 //examples we talked through in this weeks slides
@@ -43,6 +43,7 @@ let unassignedVariable;
 // unassignedVariable === undefined
 //above and below are two more types, often seen in the console as possible code errors. There is a difference between null, undefined and NaN.
 </script>
+
 <!-- 🔥🔥🔥🔥🔥🔥 start part 2 - lecture wk 2 javascript 🔥🔥🔥🔥🔥🔥 -->
 <script>
 //the following variables are applied or printed to the console.
@@ -54,24 +55,25 @@ let unassignedVariable;
     const f = 'is liz';
 
     console.group('Addition');
-    console.log(a + b);//13
-    console.log(e + ' ' + f);
-    console.log(e += ' is the batman');
+    console.log(a + b); //13
+    console.log(e + ' ' + f); // my name is liz
+    console.log(e += ' is the batman'); // my name is the batman
     console.groupEnd();
 
     console.group('Multiplication');
-    console.log(a * 3);
-    console.log(a * 3);
-    console.log(b * c);
+    console.log(a * 3); // 30
+    console.log(a * 3); // 30
+    console.log(b * c); // 45
     console.groupEnd();
     a++;
     b--;
     --b;
     c += a;
+    //the above incrementing is applied to the variables at the top
     console.group('Incrementing');
-    console.log(a);
-    console.log(b);
-    console.log(c);
+    console.log(a); // 11
+    console.log(b); // 1
+    console.log(c); // 26
     console.groupEnd();  
 </script>
 </body>
