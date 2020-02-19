@@ -1,9 +1,11 @@
 .vscode
 package-lock.json
+node_modules
 # macOS Files
 .DS_Store
 experiments
 simple-portfolio
 wk-4
-=======
+
+
 
