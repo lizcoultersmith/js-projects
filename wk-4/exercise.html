@@ -10,15 +10,43 @@
 <!-- 🔥🔥🔥🔥🔥🔥 Start - Lecture wk 4 JavaScript 🔥🔥🔥🔥🔥🔥 -->
 
     <script> console.group('Arrays and Push / Pop');
+let cats = ['Persian', 'Sphynx', 'Russian'];
+        cats.push('Manx');
+        console.log(cats);
 
+        cats.push('Siberian' + ' Blue'); 
+        console.log(cats);
+
+        let count = cats.push('Tabby');
+        console.log(count);
+        console.log(cats);
+        console.log(cats.push()); // Adds one more element the the end of the array and returns the new length of the array
+
+        console.log(cats.pop()); //removes the last element in the array
+        console.log(cats);
+        console.log(cats[1]);
         console.groupEnd();
 
         console.group('For Loops, Arrays with Increment Operator');
+        for(let i = 0; i < cats.length; i++) {
+            console.log(cats[i]); // And what happens here and why?
+        }
+
         
         console.groupEnd();
         
         console.group('Objects'); 
-        
+        let person = {
+            firstName : "Lulu",
+            lastName  : "Smith",
+            age       : 31,
+            eyeColour : "blue"
+        };
+        console.log(person.firstName);
+        console.log(person["firstName"]);
+        console.log(person.age);
+        console.log(person["eyeColour"]);
+
         console.groupEnd();
 
         </script>
